@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Paradigm Shift</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" href="style.css">
 </head>
-<body class="is-preload">
-    <div id="wrapper">
-        <section class="intro">
-            <div class="slider-container">
-                <div class="slide"><h1>Modern Design</h1></div>
-                <div class="slide"><h1>Responsive Layout</h1></div>
-                <div class="slide"><h1>Clean Code</h1></div>
-            </div>
-            <p>A multi-page portfolio built with pure HTML and CSS.</p>
-            <ul class="actions">
-                <li><a href="#first" class="button">Learn More</a></li>
-            </ul>
-        </section>
 
-        <section id="first" class="main">
-            <header>
-                <h2>About the Project</h2>
-            </header>
-            <div class="content">
-                <span class="image fill"><img src="images/pic01.jpg" alt="About Image" /></span>
-                <p>This is a preview of the about section. We use Flexbox to align this text next to the image.</p>
-            </div>
-        </section>
+<body>
 
-        <section class="main">
-            <header><h2>Work Gallery</h2></header>
-            <div class="content">
-                <div class="gallery-preview">
-                    <img src="images/pic01.jpg" alt="">
-                    <img src="images/pic02.jpg" alt="">
-                    <img src="images/pic03.jpg" alt="">
-                    <img src="images/pic04.jpg" alt="">
-                    <img src="images/pic05.jpg" alt="">
-                    <img src="images/pic06.jpg" alt="">
-                </div>
-            </div>
-        </section>
-    </div>
+<header>
+<div class="container nav">
+<h2 class="logo">MySite</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
 
-    </body>
+<section class="hero">
+<div class="hero-slide">Slide 1</div>
+<div class="hero-slide">Slide 2</div>
+<div class="hero-slide">Slide 3</div>
+</section>
+
+<section class="container about-preview">
+<img src="images/01.jpg" alt="">
+<div>
+<h2>About Us</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<a class="button" href="about.html">Learn More</a>
+</div>
+</section>
+
+<section class="container features">
+<div class="card">Feature One</div>
+<div class="card">Feature Two</div>
+<div class="card">Feature Three</div>
+</section>
+
+<section class="container gallery-preview">
+<img src="images/01.jpg">
+<img src="images/02.jpg">
+<img src="images/03.jpg">
+<img src="images/04.jpg">
+<img src="images/05.jpg">
+<img src="images/06.jpg">
+</section>
+
+<section class="cta">
+<h2>Get in Touch</h2>
+<a class="button" href="contact.html">Contact Us</a>
+</section>
+
+<footer>
+<p>© 2026 MySite</p>
+</footer>
+
+</body>
 </html>
