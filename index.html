@@ -4,61 +4,87 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home</title>
+<title>My Portfolio</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<div class="container nav">
-<h2 class="logo">MySite</h2>
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="gallery.html">Gallery</a>
-<a href="contact.html">Contact</a>
-</nav>
-</div>
+  <div class="navbar container">
+    <div class="logo">My Portfolio</div>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
 </header>
 
 <section class="hero">
-<div class="hero-slide">Slide 1</div>
-<div class="hero-slide">Slide 2</div>
-<div class="hero-slide">Slide 3</div>
+  <div class="container hero-content">
+
+    <div class="hero-text">
+      <h1>Data and Design</h1>
+      <p>Clean layout, responsive grid, no frameworks.</p>
+      <a class="btn" href="gallery.html">See Gallery</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/slider1.jpg" alt="Hero image" width="450">
+    </div>
+
+  </div>
 </section>
 
-<section class="container about-preview">
-<img src="images/01.jpg" alt="">
-<div>
-<h2>About Us</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-<a class="button" href="about.html">Learn More</a>
+<section class="container">
+
+<h2>Features</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Clean Code</h3>
+<p>Semantic HTML and organized CSS.</p>
 </div>
+
+<div class="card">
+<h3>Responsive</h3>
+<p>Layouts adapt across desktop and mobile.</p>
+</div>
+
+<div class="card">
+<h3>Modern Design</h3>
+<p>Minimal layout focused on readability.</p>
+</div>
+
+</div>
+
 </section>
 
-<section class="container features">
-<div class="card">Feature One</div>
-<div class="card">Feature Two</div>
-<div class="card">Feature Three</div>
-</section>
+<section class="container">
 
-<section class="container gallery-preview">
-<img src="images/01.jpg">
-<img src="images/02.jpg">
-<img src="images/03.jpg">
-<img src="images/04.jpg">
-<img src="images/05.jpg">
-<img src="images/06.jpg">
-</section>
+<h2>Gallery Preview</h2>
 
-<section class="cta">
-<h2>Get in Touch</h2>
-<a class="button" href="contact.html">Contact Us</a>
+<div class="gallery-grid">
+
+<img src="images/gallery1.jpg" alt="Gallery image">
+<img src="images/gallery2.jpg" alt="Gallery image">
+<img src="images/gallery3.jpg" alt="Gallery image">
+<img src="images/gallery4.jpg" alt="Gallery image">
+<img src="images/gallery5.jpg" alt="Gallery image">
+<img src="images/gallery6.jpg" alt="Gallery image">
+
+</div>
+
 </section>
 
 <footer>
-<p>© 2026 MySite</p>
+
+<p>© 2026 My Portfolio</p>
+
 </footer>
 
 </body>
